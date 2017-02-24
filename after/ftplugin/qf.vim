@@ -18,7 +18,7 @@ function! VimQicPrevCurrentItem()
             " Jump to preview window
             wincmd P
             execute 'normal zz'
-            execute 'match VimQuickPreview /\%'. l:entry.lnum .'l/'
+            execute 'match VimQuickPreviewHighLight /\%'. l:entry.lnum .'l/'
 
             " Go back to quickfix window, assuming the quickfix window is right below the preview
             " window as the goddamn 'wincmd p' doesn't work for me for some reason I don't know.

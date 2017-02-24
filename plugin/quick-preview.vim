@@ -22,7 +22,7 @@ function! VimQicPrevQuit()
     pclose
 endfunction
 
-highlight VimQuickPreview ctermbg=darkgray ctermfg=yellow cterm=italic guibg=darkgray guifg=yellow 
+highlight VimQuickPreviewHighLight ctermbg=2 ctermfg=8 guibg=darkgray guifg=yellow 
 
 let g:vim_quick_preview_loaded = 1
 
